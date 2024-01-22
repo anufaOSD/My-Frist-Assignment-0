@@ -1,0 +1,375 @@
+body{
+    font-family: 'Lato',sans-serif;
+    font-family: 'Open sans',sans-serif;
+    width: 1600px;
+    height: 7335px;
+    text-align: center;
+}
+
+
+.banner-sec{
+    text-align: center;
+    background-image: url('../resources/Banner\ Image.png');
+    background-color:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);;
+    background-repeat: no-repeat;
+    width: 1300px;
+    height: 500px;
+    margin: 30px 115px;
+    border-radius:15px;
+    padding-top: 10%;
+    backface-visibility: hidden;
+
+   
+}
+
+.banner-sec:hover{
+    opacity: 1.0;
+}
+
+
+.banner-taitle{
+    z-index: 1;
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+
+
+.banner-p{
+
+    margin-bottom: 20px;
+   color: #FFF;
+   text-align: center;
+   font-size: 72px;
+}
+.header-sec{
+    width: 1515px;
+    background-color: white;
+}
+.text-sec{
+    text-align: center;
+    
+    
+}
+.header-taitle{
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+}
+.header-p{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.header-text{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.main-section{
+   background-image:url('../resources/Vectorrr.png');
+    width: 1300px;
+    height: 600px;
+    margin: 70px 115px;
+    border-radius: 15px;
+
+    
+    
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 80px ;
+}
+.left-taitle{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+.left-p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+.left-btn{
+    padding: 10px 15px;
+    background-color: #F00;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+.right-img{
+    margin-top: 40px;
+}
+
+.box-sec{
+    width: 1300px;
+    height: 400px;
+    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    margin: 70px 115px;
+    border-radius: 15px;
+    
+}
+.box-model{
+    padding-top: 6%;
+}
+.box-text{
+    color: #F00;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.color{
+    color: black;
+}
+.box-btn{
+    padding: 10px 15px;
+    background-color: #F00;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.model-sec{
+    width: 1300px;
+    height: 600px;
+    background-color:#FFF;
+    display: flex;
+    margin: 30px 125px;
+
+}
+.model-box{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0 220px;
+   padding: 0 30px;
+    
+}
+.model-left{
+    margin-right: -5px;
+   
+  
+}
+.model{
+    color: tomato; 
+}
+.model-1{
+    font-size:45px; 
+    color: black;
+}
+.model-p{
+    font-size: 20px;
+    color: rgb(61, 55, 55);
+}
+.model-midel{
+    padding: 10px;
+    border: 15px solid tomato;
+    border-radius: 100%;
+}
+.model-right{
+    margin-left: 30px;
+  
+    
+}
+.right{
+    font-size: 40px;
+    color: tomato;
+}
+.right-p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(61, 55, 55);
+    
+}
+
+.main-part{
+    width: 1300px;
+    height: auto;
+    margin: 40px 115px;
+    text-align: center;
+}
+.img-part{
+    display: flex;
+    margin-left: 45px;
+    
+}
+.part-t{
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
+}
+.part-title{
+    font-size: 70px;
+    font-weight: 900;
+    color: black;
+}
+.span{
+    color: #F00;
+}
+.part-p{
+    font-size: 20px;
+}
+ .img-1{
+    width: 400px;
+    height: 400px;
+    padding-top: 10px;
+    margin-left: 80px;
+    
+    
+}
+.img-2{
+    margin-top: 100px;
+    margin-left: 0px;
+}
+.img-3{
+    margin-left: 18px;
+ 
+}
+
+.text-part{
+    width: 1280px;
+    height: 200px;
+    background-color: red;
+    border-radius:0 0 15px 15px;
+}
+
+.portfolio{
+    width: 1300px;
+    height: auto;
+    margin: 70px 115px;
+    background-color: #FFF;
+    
+}
+.img-sec{
+    transition: transform 0.1s ease-in-out;
+
+}
+.img-sec:hover{
+     transform: scale(1.1);
+}
+
+.text{
+    font-size: 24px;
+    color: #F00;
+    font-weight: 400;
+}
+.text-1{
+    font-size: 45px;
+    color: black;
+    font-weight: 900;
+}
+.paragrap{
+    font-size: 20px;
+    color: rgb(175, 165, 165);
+    font-weight: 400;
+
+}
+.form{
+    text-align: center;
+    width: 1300px;
+    height: 600px;
+    background-color:rgba(255, 0, 0, 0.05);;
+    margin: 30px 115px;
+    border-radius: 15px;
+
+}
+.form-sec{
+    padding: 8%;
+    
+}
+.form-text{
+    font-size: 40px;
+    font-weight: 900;
+    color: black;
+}
+.form-p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(175, 165, 165);
+}
+.email{
+    padding: 15px 20px;
+    border: none;
+    font-size: 15px;
+    position: relative;
+    border-radius:50px 0 0 50px ;
+    
+}
+.btn-class{
+    padding: 15px 20px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:#F00;
+    color: white;
+    border-radius: 0 50px 50px 0;
+    margin-right: 1x;
+    position: absolute;
+}
+.footer-sec{
+    width: 1515px;
+    height: 600px;
+    background-color: black;
+    
+}
+.footer-left{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 115px;
+
+}
+.footer-text{
+    font-size: 25px;
+    font-weight: 500;
+    color: #FFF;
+    
+}
+.footer{
+    font-size: 25px;
+    font-weight: 500;
+    color:#FFF;
+}
+.fotter-img{
+    padding: 50px 600px;
+    margin: 30px 0;
+    
+
+}
+.footer-right{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 115px;
+    
+}
+.right-text{
+    font-size: 25px;
+    font-weight: 500;
+    color: #FFF;
+}
+.icon{
+    font-size: 20px;
+    margin-right: 10px;
+}
